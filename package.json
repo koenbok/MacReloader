@@ -1,6 +1,6 @@
 {
   "name": "macreloader",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Reload browser with applescript",
   "main": "reloader.js",
   "scripts": {
@@ -15,5 +15,22 @@
   "devDependencies": {
     "coffee-script": "^1.9.0"
   },
-  "os": ["darwin"]
+  "os": [
+    "darwin"
+  ],
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/koenbok/MacReloader.git"
+  },
+  "keywords": [
+    "browser",
+    "reload"
+  ],
+  "bugs": {
+    "url": "https://github.com/koenbok/MacReloader/issues"
+  },
+  "homepage": "https://github.com/koenbok/MacReloader"
 }

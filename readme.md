@@ -7,7 +7,7 @@ It is a pretty great alternative to browsersync (no server required) and liverel
 #### Usage
 
 ```
-reloader = require("reloader")
+reloader = require("macreloader")
 reloader.reload("file://home/koen/test.html")
 ```
 
