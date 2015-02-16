@@ -1,4 +1,3 @@
-_ = require "lodash"
 run = require("run-applescript")
 
 serializeArray = (arr) ->
@@ -53,7 +52,7 @@ reloadSafari = (urls, js=reloadScript) ->
 		# throw err if err
 
 exports.reload = (urls) ->
-	urls = [urls] unless _.isArray(urls)
+	urls = [urls] unless Array.isArray(urls)
 	reloadChrome(urls)
 	reloadSafari(urls)
 

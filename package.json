@@ -1,6 +1,6 @@
 {
   "name": "macreloader",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Reload browser with applescript",
   "main": "reloader.js",
   "scripts": {
@@ -9,7 +9,6 @@
   "author": "Koen Bok",
   "license": "MIT",
   "dependencies": {
-    "lodash": "^3.2.0",
     "run-applescript": "^1.0.1"
   },
   "devDependencies": {
